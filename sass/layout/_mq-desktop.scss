@@ -1,0 +1,31 @@
+/*MQ de Desktop*/
+
+@media (min-width: 1024px) {
+
+    header {
+
+        a img {
+            max-width: 15%;
+            padding-left: 2rem;
+        }
+        
+        h2 {
+            padding-right: 2rem;
+        }
+
+    }
+
+    main {
+
+        .carousel-item img {
+            height: 650px;
+            object-fit: cover;
+        }
+
+    }
+
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}

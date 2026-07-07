@@ -1,0 +1,291 @@
+[
+    {
+    "id": 1, 
+    "name": "Hesperia Isla Margarita", 
+    "category": "All Inclusive",
+    "pricePerNight": 87.5,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Playa Puerto Viejo, Nueva Esparta.",
+    "description": "Este complejo turístico de lujo se encuentra a 8 minutos a pie de la playa Puerto Viejo y a 3 km de las playas Puerto Cruz y Pedro González.",
+    "services": [
+        "Acceso directo a la playa",
+        "Restaurante Trattoria el Fogón",
+        "Cafetería en el alojamiento",
+        "Actividades organizadas",
+        "Piscina al aire libre",
+        "Bar en la piscina",
+        "Sala de conferencias",
+        "Gimnasio",
+        "Masajes (Costo adicional)",
+        "Sauna (Costo adicional)",
+        "Servicio de traslado (Costo adicional)",
+        "Wifi libre",
+        "Club infantil",
+        "Sala de juegos",
+        "Campo de golf (Costo adicional)",
+        "Recepción 24 horas",
+        "Servicio de limpieza diario",
+        "Ascensor",
+        "Tumbonas/sillas de playa"
+        ]
+    },
+
+    {
+    "id": 2, 
+    "name": "Hesperia Playa el Agua", 
+    "category": "All Inclusive",
+    "pricePerNight": 87.5,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Av. 31 de Julio, Nueva Esparta.",
+    "description": "Ubicado en el corazón de Playa El agua. Está en primera línea de playa y solo cruzando el boulevard se encuentran las playas con sus arenas blancas y sus aguas cristalinas.",
+    "services": [
+        "Servicios",
+        "Situado frente a la playa",
+        "Música / espectáculos en directo",
+        "Club infantil",
+        "Zona de juegos para niños",
+        "3 Restaurantes",
+        "Cafetería en el alojamiento",
+        "Seguridad 24 horas",
+        "Gimnasio",
+        "Masajes (Costo adicional)",
+        "Sauna (Costo adicional)",
+        "Servicio de traslado (Costo adicional)",
+        "Wifi libre",
+        "Personal de animación",
+        "Servicio de habitaciones",
+        "Recepción 24 horas",
+        "Servicio de limpieza diario",
+        "Piscina al aire libre",
+        "Bar en la piscina",
+        "Tumbonas/sillas de playa"
+        ]
+    },
+
+    {
+    "id": 3, 
+    "name": "Costa Caribe", 
+    "category" : "All Inclusive",
+    "pricePerNight":  90,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Playa La Boquita, Nueva Esparta.",
+    "description": "Frente al mar Caribe en Playa La Boquita, a 3 Km de Juan Griego y a 25 Km del Aeropuerto Internacional Santiago Mariño.",
+    "services": [
+        "2 Salones de Convenciones",
+        "Restaurante Las Brisas - Tipo buffet",
+        "Lobby Bar Amaretto (11:00 a.m. hasta 1:00 a.m.)",
+        "Bar “La Tortuga” (11:00 a.m. hasta 10:00 p.m.)",
+        "Servicio de taxi (Costo adicional)",
+        "Wifi libre",
+        "Actividades de entretenimiento diurno y nocturno",
+        "Tarde de cine",
+        "Kid Club (09:00 a.m. hasta 06:00 p.m.)",
+        "Club de playa (09:00 a.m hasta 06:00 p.m.)",
+        "Salón de juegos de usos múltiples",
+        "Piscina con jacuzzi (09:00 a.m. hasta 06:00 p.m.)",
+        "Masajes (Costo adicional)",
+        "Beach Party"
+        ]
+    },
+
+    {
+    "id": 4, 
+    "name": "LD Palm Beach", 
+    "category": "All Inclusive",
+    "pricePerNight": 95,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Calle Pelícano, sector Playa El Agua, Isla de Margarita.",
+    "description": "A 300 metros del boulevard de Playa El Agua, 40 minutos de Porlamar y 35 minutos del Aeropuerto Internacional Santiago Mariño.",
+    "services": [
+        "Recepción 24 horas",
+        "Tienda de souvenirs",
+        "Restaurante buffet",
+        "Bar en la playa",
+        "Bar en la piscina",
+        "Piscina para adultos",
+        "Piscina para niños",
+        "Jacuzzi al aire libre",
+        "Zona infantil",
+        "Zona de masajes",
+        "Sala de pool",
+        "Club de playa",
+        "Salón para reuniones"
+        ]
+    },
+
+    {
+    "id": 5, 
+    "name": "Sunsol Isla Caribe", 
+    "category": "All Inclusive",
+    "pricePerNight": 110,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Playa el Tirano, Carretera Costanera, 6301. Isla de Margarita.",
+    "description": "Ubicado en la zona norte de la Isla de Margarita, en Playa El Tirano a 40 minutos del Aeropuerto Internacional Santiago Mariño.",
+    "services": [
+        "3 piscinas familiares con zona para niños",
+        "3 restaurantes tipo buffet",
+        "Acceso directo a la playa",
+        "Servicio de toldos y sillas",
+        "Bares en piscina y playa",
+        "Salón de eventos",
+        "Actividades recreativas",
+        "Sala de videojuegos (Costo adicional)",
+        "Sala de juegos",
+        "Wi-Fi gratis en todo el hotel",
+        "Teatro y show nocturno",
+        "Servicio de limpieza diario"
+        ]
+    },
+
+    {
+    "id": 6, 
+    "name": "Paradise Coche", 
+    "category": "All Inclusive",
+    "pricePerNight": 110,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Playa La Punta, Isla de Coche.",
+    "description": "Ubicado en la Isla de Coche, frente al mar en el sector Playa La Punta, a solo 20 minutos en lancha desde la Isla de Margarita.",
+    "services": [
+        "Traslados en Lancha",
+        "Restaurant Bar",
+        "Piscina principal",
+        "Acceso directo a la playa",
+        "Servicio de toldos y sillas",
+        "Cancha de Mini Golf",
+        "Cancha de Bolas Criollas",
+        "Churuata para la realización de eventos",
+        "Actividades acuáticas",
+        "Wi-Fi gratis en todo el hotel",
+        "Actividades recreacionales",
+        "Show y Espectáculos",
+        "Servicio de limpieza diario",
+        "Terapia para el Cuerpo (Costo adicional)"
+        ]
+    },
+
+    {
+    "id": 7, 
+    "name": "LD PLus", 
+    "category": "All Inclusive",
+    "pricePerNight": 125,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Calle Pelícano, Sector Playa El Agua (La Mira), la Isla de Margarita",
+    "description": "Se ubica en una de las playas más exuberantes de la Isla, a tan solo 25 km de Porlamar (zona comercial) y a 35 km del Aeropuerto International Santiago Mariño.",
+    "services": [
+        "Amplias, cálidas y cómodas Habitaciones",
+        "Novedosa área de piscinas",
+        "Parque Infantil",
+        "Sala de ejercicios",
+        "Sala de juegos",
+        "Spa y Sauna",
+        "Pista de trote",
+        "Lounge terraza Bar",
+        "Estacionamiento gratuito",
+        "Wi-Fi gratis en todo el hotel",
+        "Habitaciones y áreas con accesibilidad",
+        "Servicio de taxi 24 horas",
+        "Salón para eventos"
+        ]
+    },
+
+    {
+    "id": 8, 
+    "name": "Sunsol Ecoland", 
+    "category": "All Inclusive",
+    "pricePerNight": 130,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Playa Puerto Cruz, Valle de Pedro González, Isla de Margarita.",
+    "description": "Ubicado en la zona norte de la Isla de Margarita, en el valle de Pedro Gónzalez a 40 minutos del Aeropuerto Internacional Santiago Mariño.",
+    "services": [
+        "4 piscinas familiares",
+        "2 piscinas infantiles",
+        "4 restaurantes tipo buffet",
+        "Acceso directo a la playa",
+        "Servicio de toldos y sillas",
+        "Bares en piscina y playa",
+        "Paseos en botes",
+        "Boulevard con ciclovía",
+        "Senderismo de montaña",
+        "Wi-Fi gratis en todo el hotel",
+        "Mini golf",
+        "Parque infantil y club de niños",
+        "Sala de cine",
+        "Gimnasio",
+        "Sala de juegos",
+        "Teatro y show nocturno"
+        ]
+    },
+
+    {
+    "id": 9, 
+    "name": "Sunsol Punta Blanca", 
+    "category": "All Inclusive",
+    "pricePerNight": 132.5,
+    "thumbnail": "",
+    "gallery": [
+        "",
+        "",
+        ""
+    ],
+    "location": "Playa La Punta, Isla de Coche.",
+    "description": "Este magnífico hotel está ubicado en Playa La Punta, en la paradisíaca Isla de Coche, a tan solo 20 minutos de la Isla de Margarita.",
+    "services":[
+        "1 piscina familiar con zona para niños",
+        "1 restaurante tipo buffet",
+        "1 restaurante para snack",
+        "Parque infantil",
+        "Acceso directo a la playa",
+        "Servicio de toldos y sillas",
+        "Servicio de toallas en el club de playa y piscina",
+        "Bares en piscina y playa",
+        "Salón de eventos",
+        "Actividades recreativas",
+        "Sala de juegos",
+        "Wi-Fi gratis en todo el hotel",
+        "Actividades recreativas",
+        "Servicio de limpieza diario",
+        "Servicio de masajes (Costo adicional)",
+        "Bodegón (Costo adicional)"
+        ]
+    }
+]

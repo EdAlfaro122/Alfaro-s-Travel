@@ -1,0 +1,21 @@
+/* MQ de Tablet */
+
+@media (min-width: 764px) {
+
+    header {
+        a img {
+            max-width: 30%;
+            padding-left: 2rem;
+        }
+        
+        h2 {
+            padding-right: 2rem;
+        }
+
+    }
+
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
