@@ -4,11 +4,12 @@
     "name": "Hesperia Isla Margarita", 
     "category": "All Inclusive",
     "pricePerNight": 87.5,
-    "thumbnail": "",
+    "thumbnail": "./img/hesperia-isla-margarita/1.jpg",
     "gallery": [
-        "",
-        "",
-        ""
+        "./img/hesperia-isla-margarita/2.jpg",
+        "./img/hesperia-isla-margarita/3.jpg",
+        "./img/hesperia-isla-margarita/4.jpg",
+        "./img/hesperia-isla-margarita/5.jpg"
     ],
     "location": "Playa Puerto Viejo, Nueva Esparta.",
     "description": "Este complejo turístico de lujo se encuentra a 8 minutos a pie de la playa Puerto Viejo y a 3 km de las playas Puerto Cruz y Pedro González.",
