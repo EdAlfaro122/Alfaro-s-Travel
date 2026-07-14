@@ -3,29 +3,34 @@
 @media (min-width: 1024px) {
 
     header {
-
         a img {
             max-width: 15%;
             padding-left: 2rem;
         }
-        
+
         h2 {
             padding-right: 2rem;
         }
-
     }
 
     main {
-
         .carousel-item img {
             height: 650px;
             object-fit: cover;
         }
-
     }
 
-    .container {
-        grid-template-columns: repeat(4, 1fr);
-        
+    .contenedor-hoteles{
+        display: grid;
+        padding: 3rem;
+        gap: 1.5rem;
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .contenedor-destacados{
+        display: grid;
+        padding: 3rem;
+        gap: 1.5rem;
+        grid-template-columns:repeat(3,1fr);
     }
 }

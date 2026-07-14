@@ -1,5 +1,12 @@
-
-
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.link {
+    img{
+    width: 25px;
+    height: 25px;
+    }
 }

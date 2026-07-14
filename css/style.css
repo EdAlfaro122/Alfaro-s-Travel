@@ -15,8 +15,12 @@ header img {
   max-width: 35%;
   padding-left: 1rem;
 }
-header h2 {
+header .paginaHotel {
+  display: flex;
+  color: whitesmoke;
+  text-decoration: none;
   padding-right: 1rem;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -24,69 +28,101 @@ h1 {
   padding: 1rem;
 }
 
-.card {
-  width: 100%;
-  border-radius: 10px;
-  overflow: hidden;
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.titulo-hoteles {
   background-color: whitesmoke;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
-}
-
-.card img {
-  width: 100%;
-  height: 280px;
-}
-
-.card .contenido {
-  padding: 10px 20px;
+  color: black;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-}
-.card .contenido p {
-  margin-bottom: 25px;
-  line-height: 1.5;
-  line-height: 1.5;
-  color: #6a6a6a;
-}
-.card .contenido h3 {
-  font-weight: 400;
-  margin-bottom: 8px;
-}
-.card .contenido a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px;
-  margin-top: auto;
-  color: #2fb4cc;
-  border: 1px solid #2fb4cc;
-  border-radius: 4px;
-  transition: all 400ms ease;
-}
-.card .contenido a:hover {
-  background: #2fb4cc;
-  color: #fff;
+  margin: 2rem 0;
 }
 
-#algunosHoteles {
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.container {
+.contenedor-hoteles {
   display: grid;
-  grid-template-columns: 1fr;
+  padding: 1.5rem;
   gap: 20px;
-  padding: 2rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.contenedor-destacados {
+  display: grid;
+  padding: 0.5rem 1rem 1rem 1rem;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.hotel-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hotel-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.hotel-image {
+  height: 230px;
+  overflow: hidden;
+}
+.hotel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.hotel-card:hover img {
+  transform: scale(1.08);
+}
+
+.hotel-info {
+  padding: 1.5rem;
+}
+.hotel-info h3 {
+  font-size: 1.4rem;
+  margin: 0.8rem 0;
+}
+
+.hotel-category {
+  background-color: #e6f4ff;
+  color: #0066cc;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.hotel-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.hotel-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.hotel-price span {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+button {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005fcc;
 }
 
 .suscripcion {
@@ -100,11 +136,18 @@ h1 {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.link img {
+  width: 25px;
+  height: 25px;
 }
 
 /* MQ de Tablet */
-@media (min-width: 764px) {
+@media (min-width: 768px) {
   header a img {
     max-width: 30%;
     padding-left: 2rem;
@@ -112,7 +155,13 @@ footer {
   header h2 {
     padding-right: 2rem;
   }
-  .container {
+  .contenedor-hoteles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contenedor-destacados {
+    display: grid;
+    padding: 1rem;
+    gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -129,8 +178,17 @@ footer {
     height: 650px;
     object-fit: cover;
   }
-  .container {
-    grid-template-columns: repeat(4, 1fr);
+  .contenedor-hoteles {
+    display: grid;
+    padding: 3rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contenedor-destacados {
+    display: grid;
+    padding: 3rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

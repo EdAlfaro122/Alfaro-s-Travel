@@ -16,8 +16,12 @@ header {
     padding-left: 1rem;
   }
 
-  h2 {
-    padding-right: 1rem;
 
+  .paginaHotel{
+    display: flex;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 1rem;
+    text-transform: uppercase;
   }
 }

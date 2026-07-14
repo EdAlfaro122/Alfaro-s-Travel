@@ -1,6 +1,6 @@
 /* MQ de Tablet */
 
-@media (min-width: 764px) {
+@media (min-width: 768px) {
 
     header {
         a img {
@@ -14,8 +14,15 @@
 
     }
 
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .contenedor-hoteles{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .contenedor-destacados{
+        display: grid;
+        padding: 1rem;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 

@@ -4,12 +4,14 @@
     "name": "Hesperia Isla Margarita", 
     "category": "All Inclusive",
     "pricePerNight": 87.5,
-    "thumbnail": "./img/hesperia-isla-margarita/1.jpg",
+    "folder": "hesperia-isla-margarita",
+    "thumbnail": "1.jpg",
     "gallery": [
-        "./img/hesperia-isla-margarita/2.jpg",
-        "./img/hesperia-isla-margarita/3.jpg",
-        "./img/hesperia-isla-margarita/4.jpg",
-        "./img/hesperia-isla-margarita/5.jpg"
+        "1.jpg",
+        "2.png",
+        "3.jpg",
+        "4.png",
+        "5.png"
     ],
     "location": "Playa Puerto Viejo, Nueva Esparta.",
     "description": "Este complejo turístico de lujo se encuentra a 8 minutos a pie de la playa Puerto Viejo y a 3 km de las playas Puerto Cruz y Pedro González.",
@@ -41,11 +43,14 @@
     "name": "Hesperia Playa el Agua", 
     "category": "All Inclusive",
     "pricePerNight": 87.5,
-    "thumbnail": "",
+    "folder": "hesperia-playa-el-agua",
+    "thumbnail": "1.jpeg",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jpeg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg"
     ],
     "location": "Av. 31 de Julio, Nueva Esparta.",
     "description": "Ubicado en el corazón de Playa El agua. Está en primera línea de playa y solo cruzando el boulevard se encuentran las playas con sus arenas blancas y sus aguas cristalinas.",
@@ -78,11 +83,14 @@
     "name": "Costa Caribe", 
     "category" : "All Inclusive",
     "pricePerNight":  90,
-    "thumbnail": "",
+    "folder": "costa-caribe",
+    "thumbnail": "1.jpeg",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jpeg",
+        "2.jpg",
+        "3.jpeg",
+        "4.jpg",
+        "5.jpeg"
     ],
     "location": "Playa La Boquita, Nueva Esparta.",
     "description": "Frente al mar Caribe en Playa La Boquita, a 3 Km de Juan Griego y a 25 Km del Aeropuerto Internacional Santiago Mariño.",
@@ -109,11 +117,14 @@
     "name": "LD Palm Beach", 
     "category": "All Inclusive",
     "pricePerNight": 95,
-    "thumbnail": "",
+    "folder": "ld-palm-beach",
+    "thumbnail": "1.jpeg",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jpeg",
+        "2.jpeg",
+        "3.jpeg",
+        "4.jfif",
+        "5.jpg"
     ],
     "location": "Calle Pelícano, sector Playa El Agua, Isla de Margarita.",
     "description": "A 300 metros del boulevard de Playa El Agua, 40 minutos de Porlamar y 35 minutos del Aeropuerto Internacional Santiago Mariño.",
@@ -139,11 +150,14 @@
     "name": "Sunsol Isla Caribe", 
     "category": "All Inclusive",
     "pricePerNight": 110,
-    "thumbnail": "",
+    "folder": "sunsol-isla-caribe",
+    "thumbnail": "1.jpg",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jpg",
+        "2.jpg",
+        "3.jfif",
+        "4.jpg",
+        "5.jpg"
     ],
     "location": "Playa el Tirano, Carretera Costanera, 6301. Isla de Margarita.",
     "description": "Ubicado en la zona norte de la Isla de Margarita, en Playa El Tirano a 40 minutos del Aeropuerto Internacional Santiago Mariño.",
@@ -168,11 +182,14 @@
     "name": "Paradise Coche", 
     "category": "All Inclusive",
     "pricePerNight": 110,
-    "thumbnail": "",
+    "folder": "paradise-coche",
+    "thumbnail": "1.jpeg",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jpeg",
+        "2.jpeg",
+        "3.jpeg",
+        "4.jpeg",
+        "5.jpg"
     ],
     "location": "Playa La Punta, Isla de Coche.",
     "description": "Ubicado en la Isla de Coche, frente al mar en el sector Playa La Punta, a solo 20 minutos en lancha desde la Isla de Margarita.",
@@ -199,11 +216,14 @@
     "name": "LD PLus", 
     "category": "All Inclusive",
     "pricePerNight": 125,
-    "thumbnail": "",
+    "folder": "ld-plus",
+    "thumbnail": "1.jpeg",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jpeg",
+        "2.jpg",
+        "3.jpeg",
+        "4.jfif",
+        "5.jpg"
     ],
     "location": "Calle Pelícano, Sector Playa El Agua (La Mira), la Isla de Margarita",
     "description": "Se ubica en una de las playas más exuberantes de la Isla, a tan solo 25 km de Porlamar (zona comercial) y a 35 km del Aeropuerto International Santiago Mariño.",
@@ -229,11 +249,14 @@
     "name": "Sunsol Ecoland", 
     "category": "All Inclusive",
     "pricePerNight": 130,
-    "thumbnail": "",
+    "folder": "sunsol-ecoland",
+    "thumbnail": "1.jpg",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jpg",
+        "2.jpg",
+        "3.jfif",
+        "4.jfif",
+        "5.jfif"
     ],
     "location": "Playa Puerto Cruz, Valle de Pedro González, Isla de Margarita.",
     "description": "Ubicado en la zona norte de la Isla de Margarita, en el valle de Pedro Gónzalez a 40 minutos del Aeropuerto Internacional Santiago Mariño.",
@@ -262,11 +285,14 @@
     "name": "Sunsol Punta Blanca", 
     "category": "All Inclusive",
     "pricePerNight": 132.5,
-    "thumbnail": "",
+    "folder": "sunsol-punta-blanca",
+    "thumbnail": "1.jfif",
     "gallery": [
-        "",
-        "",
-        ""
+        "1.jfif",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg"
     ],
     "location": "Playa La Punta, Isla de Coche.",
     "description": "Este magnífico hotel está ubicado en Playa La Punta, en la paradisíaca Isla de Coche, a tan solo 20 minutos de la Isla de Margarita.",
