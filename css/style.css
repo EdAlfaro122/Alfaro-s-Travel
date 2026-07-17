@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -146,6 +147,221 @@ footer {
   height: 25px;
 }
 
+.detalle-hotel {
+  padding: 1.5rem 1rem;
+  background-color: #f5f5f5;
+}
+
+.hotel-info {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 1.2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+#nombre-hotel {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.ubicacion {
+  color: #777;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+#imagen-principal {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Galería */
+.miniaturas {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+
+.miniaturas::-webkit-scrollbar {
+  height: 6px;
+}
+
+.miniaturas::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+  border-radius: 10px;
+}
+
+.miniatura {
+  flex-shrink: 0;
+  width: 90px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: 0.3s;
+}
+
+.miniatura:hover {
+  transform: scale(1.05);
+  border-color: #0d6efd;
+}
+
+/* Descripción */
+.descripcion {
+  margin: 1.8rem 0;
+  line-height: 1.7;
+  color: #555;
+  text-align: center;
+}
+
+/* Servicios */
+.hotel-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.servicios li {
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Precio */
+.precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #198754;
+}
+
+/* Seccion de reservas */
+/* CONTENEDOR DEL SELECTOR */
+.selector-reserva {
+  position: relative;
+  width: 100%;
+}
+
+/* BOTONES PRINCIPALES */
+#btn-personas, #btn-noches {
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+#btn-personas:hover, #btn-noches:hover {
+  border-color: #0d6efd;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* MENÚ DESPLEGABLE */
+.opciones {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-radius: 14px;
+  padding: 0.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+}
+
+/* BOTONES DE LAS OPCIONES */
+.opciones button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: black;
+}
+
+.opciones button:hover {
+  background-color: #f2f6ff;
+}
+
+#mensaje-reserva {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#mensaje-reserva.mostrar {
+  opacity: 1;
+}
+
+/* OCULTAR OPCIONES */
+.oculto {
+  display: none;
+}
+
+#contenedor-reservas {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.reserva-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.reserva-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.reserva-info {
+  padding: 1rem;
+}
+
+.reserva-info h3 {
+  margin-bottom: 0.5rem;
+}
+
+.total {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.reserva-card button {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /* MQ de Tablet */
 @media (min-width: 768px) {
   header a img {
@@ -163,6 +379,37 @@ footer {
     padding: 1rem;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .detalle-hotel {
+    padding: 2rem;
+  }
+  .hotel-info {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+  }
+  #imagen-principal {
+    height: 380px;
+  }
+  .miniatura {
+    width: 120px;
+    height: 85px;
+  }
+  .servicios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #nombre-hotel {
+    font-size: 2.2rem;
+  }
+  .precio {
+    font-size: 2rem;
+  }
+  .reserva-hotel {
+    max-width: 550px;
+    padding: 2rem;
+  }
+  .reserva-hotel h2 {
+    font-size: 1.8rem;
   }
 }
 /*MQ de Desktop*/
@@ -189,6 +436,39 @@ footer {
     padding: 3rem;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .detalle-hotel {
+    padding: 3rem;
+  }
+  .hotel-info {
+    max-width: 1100px;
+    padding: 2.5rem;
+  }
+  #imagen-principal {
+    height: 500px;
+  }
+  .miniaturas {
+    justify-content: center;
+  }
+  .miniatura {
+    width: 150px;
+    height: 100px;
+  }
+  .servicios {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+  #nombre-hotel {
+    font-size: 2.6rem;
+  }
+  .descripcion {
+    font-size: 1rem;
+  }
+  .precio {
+    font-size: 2rem;
+  }
+  .reserva-hotel {
+    max-width: 600px;
   }
 }
 

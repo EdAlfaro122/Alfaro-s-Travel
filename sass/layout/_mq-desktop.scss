@@ -33,4 +33,50 @@
         gap: 1.5rem;
         grid-template-columns:repeat(3,1fr);
     }
+
+     .detalle-hotel{
+        padding: 3rem;
+    }
+
+    .hotel-info{
+        max-width: 1100px;
+        padding: 2.5rem;
+    }
+
+    #imagen-principal{
+        height: 500px;
+    }
+
+    .miniaturas{
+        justify-content: center;
+    }
+
+    .miniatura{
+        width: 150px;
+        height: 100px;
+    }
+
+    .servicios{
+        grid-template-columns: repeat(3,1fr);
+        gap: 0.5rem;
+    }
+
+    #nombre-hotel{
+        font-size: 2.6rem;
+    }
+
+    .descripcion{
+        font-size: 1rem;
+    }
+
+    .precio{
+        font-size: 2rem;
+    }
+
+    .reserva-hotel {
+
+        max-width: 600px;
+
+    }
+
 }

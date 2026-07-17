@@ -17,25 +17,102 @@
 </header>
 <body>
     
-<main class="detalle-hotel">
+<section class="detalle-hotel">
+    
+    <div class="hotel-info">
 
-    <section class="hotel-info">
+        <h1 id="nombre-hotel"></h1>
+        
+        <p id="categoria-hotel"></p>
 
-        <h1></h1>
+        <p id="ubicacion-hotel" class="ubicacion"></p>
 
-        <img>
+        <section class="galeria-hotel">
+            <img id="imagen-principal" src="" alt="">
+            <div id="miniaturas-hotel" class="miniaturas">
+            </div>
+        </section>
 
-        <p class="ubicacion"></p>
+        <p id="descripcion-hotel" class="descripcion"></p>
 
-        <p class="descripcion"></p>
+        <h2>Servicios incluidos</h2>
 
-        <ul class="servicios"></ul>
+        <ul id="servicios-hotel" class="servicios"></ul>
 
-        <p class="precio"></p>
+        <p id="precio-hotel" class="precio"></p>
 
-    </section>
+        <section class="reserva-hotel">
 
-</main>
+            <h2>Realizar reserva</h2>
 
+            <p>
+                Precio por persona/noche:
+                <span id="precio-base"></span>
+            </p>
+
+            <label>
+                Cantidad de personas:
+            </label>
+
+            <div class="selector-reserva">
+                <button id="btn-personas">
+                    1 persona ▾
+                </button>
+
+                <div id="opciones-personas" class="opciones oculto">
+                    <button data-personas="1"> 👤 1 persona </button>
+                    <button data-personas="2"> 👤 2 personas </button>
+                    <button data-personas="3"> 👤 3 personas </button>
+                    <button data-personas="4"> 👤 4 personas </button>
+                </div>
+            </div>
+
+
+            <label>
+                Cantidad de noches:
+            </label>
+
+            <div class="selector-reserva">
+                <button id="btn-noches">
+                    1 noche ▾
+                </button>
+
+                <div id="opciones-noches" class="opciones oculto">
+                    <button data-noches="1"> 🌙 1 noche </button>
+                    <button data-noches="2"> 🌙 2 noches </button>
+                    <button data-noches="3"> 🌙 3 noches </button>
+                    <button data-noches="4"> 🌙 4 noches </button>
+                </div>
+            </div>
+
+            <p>
+                Total:
+                <span id="total-reserva"></span>
+            </p>
+
+            <button id="btn-reservar">
+                Reservar ahora
+            </button>
+
+            <p id="mensaje-reserva"></p>
+
+        </section>
+
+    </div>
+</section>
+
+<!-- footer -->
+        <footer>
+            <p>Todos los derechos reservados</p>
+            <div class="link">
+            <a href="https://www.instagram.com/alfarostravel/">
+              <img src="../img/Instagram_icon.png" alt="IG de Alfaros Travel">
+            </a>
+          </div>
+
+        </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
