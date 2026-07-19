@@ -1,27 +1,69 @@
+//variables
+@use "../utilities/variables" as *;
+@use "../utilities/listas" as *;
+@use "../utilities/mixin" as *;
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+
 header {
-  background-color: black;
+  background-color: nth($lista-colores, 2);
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
 
   img {
-    max-width: 35%;
-    padding-left: 1rem;
+    max-width: 120px;
+  }
+
+  nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  }
+
+  .paginaHotel,
+  .paginaReservas{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: .6rem 1rem;
+    border-radius: 50px;
+    transition: .3s ease;
+    font-size: .85rem;
+    color: nth($lista-colores, 1);
+    border: 1px solid nth($lista-colores, 1);
+
+    &:hover {
+        background-color: nth($lista-colores, 1);
+        color: black;
+        transform: translateY(-2px);
+    }
   }
 
 
-  .paginaHotel{
-    display: flex;
-    color: whitesmoke;
+  .volver-hoteles {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
     text-decoration: none;
-    padding-right: 1rem;
-    text-transform: uppercase;
+    font-weight: 600;
+    padding: .6rem 1rem;
+    border-radius: 50px;
+    transition: .3s ease;
+    font-size: .85rem;
+
+    &:hover {
+        background-color: transparent;
+        color: white;
+        transform: translateY(-2px);
+    }
   }
 }

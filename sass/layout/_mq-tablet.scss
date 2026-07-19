@@ -4,8 +4,7 @@
 
     header {
         a img {
-            max-width: 30%;
-            padding-left: 2rem;
+            max-width: 120px;
         }
         
         h2 {
@@ -19,7 +18,6 @@
     }
 
     .contenedor-destacados{
-        display: grid;
         padding: 1rem;
         gap: 20px;
         grid-template-columns: repeat(2, 1fr);
@@ -71,4 +69,7 @@
 
     }
 
+    .filtros-hoteles {
+        width: 80%;
+    }
 }

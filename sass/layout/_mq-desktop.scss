@@ -3,9 +3,8 @@
 @media (min-width: 1024px) {
 
     header {
-        a img {
-            max-width: 15%;
-            padding-left: 2rem;
+        img {
+            width: 150px;
         }
 
         h2 {
@@ -21,14 +20,12 @@
     }
 
     .contenedor-hoteles{
-        display: grid;
         padding: 3rem;
         gap: 1.5rem;
         grid-template-columns:repeat(3,1fr);
     }
 
     .contenedor-destacados{
-        display: grid;
         padding: 3rem;
         gap: 1.5rem;
         grid-template-columns:repeat(3,1fr);
@@ -79,4 +76,26 @@
 
     }
 
+    .busqueda{
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .filtros-hoteles {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 2rem;
+        width: 70%;
+    }
+
+
+    #buscador {
+        width: 40%;
+    }
+
+    .contenedor-precio {
+        width: 40%;
+    }
 }

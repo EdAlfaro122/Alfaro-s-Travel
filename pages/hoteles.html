@@ -10,18 +10,51 @@
 <body>
     
 <header>
-    <a href="../index.html">
-        <img src="../img/logo-alfaros-travel-sin-fondo.png" alt="Logo de Alfaros Travel">
+  <a href="../index.html">
+    <img src="../img/logo-alfaros-travel-sin-fondo.png" alt="Logo de Alfaros Travel">
+  </a>
+
+  <nav>
+    <a href="hoteles.html" class="paginaHotel">
+        Todos los hoteles
     </a>
-    <a class="paginaHotel" href="hoteles.html"> Todos los hoteles </a>
+
+    <a class="paginaReservas" href="mi-reserva.html">
+      Mis Reservas
+    </a>
+  </nav>
 </header>
 
-<div class="titulo-hoteles">
+<section class="titulo-hoteles">
     <h1> NUESTROS HOTELES </h1>
     <p> ENCUENTRA EL ALOJAMIENTO PERFECTO PARA TU VIAJE </p>
-</div>
+</section>
 
-<div class="contenedor-hoteles"> </div>
+<section class="filtros-hoteles">
+    <input type="text" id="buscador-hoteles" placeholder="Buscar hotel..." aria-label="Buscar hotel" >
+
+    <div class="contenedor-precio">
+        <label for="filtro-precio">
+            Filtrar por precio:
+        </label>
+
+        <select id="filtro-precio">
+            <option value="todos">
+                Todos los hoteles
+            </option>
+
+            <option value="menor">
+                Menor a $100
+            </option>
+
+            <option value="mayor">
+                Mayor a $100
+            </option>
+        </select>
+    </div>
+</section>
+
+<section class="contenedor-hoteles"> </section>
 
 <!-- footer -->
         <footer>
@@ -35,6 +68,6 @@
         </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<script src="../js/main.js"></script>
+<script src="/js/hoteles.js"></script>
 </body>
 </html>

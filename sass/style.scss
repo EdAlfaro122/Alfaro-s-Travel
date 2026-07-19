@@ -1,3 +1,10 @@
+// use 
+@use "utilities/variables" as *;
+@use "utilities/listas" as *;
+@use "utilities/mixin" as *;
+
+// páginas
+
 @use "pages/header";
 
 @use "pages/main";
@@ -7,8 +14,8 @@
 @use "pages/detalle-hotel";
 
 @use "pages/mi-reserva";
-// layouts 
 
+// layouts 
 
 @use "./layout/mq-tablet";
 
