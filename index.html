@@ -56,79 +56,54 @@
     </button>
     </div>
 
-    <h2>Hoteles Destacados</h2>
+  <h2>Hoteles Destacados</h2>
 
-    <!-- div para el JS-->
-    <div class="contenedor-destacados"> </div>
+  <!-- div para el JS-->
+  <div class="contenedor-destacados"> </div>
 
 
-    <!-- form con bootstrap -->
-
-        <form id="form-suscripcion" class="row p-4 g-4">
-
-  <div class="col-md-6">
-    <label for="nombre" class="form-label">Nombre</label>
-    <input
-      type="text"
-      class="form-control"
-      id="nombre"
-      placeholder="Ingresa tu nombre"
-      required
-    >
-  </div>
-
-  <div class="col-md-6">
-    <label for="apellido" class="form-label">Apellido</label>
-    <input
-      type="text"
-      class="form-control"
-      id="apellido"
-      placeholder="Ingresa tu apellido"
-      required
-    >
-  </div>
-
-  <div class="col-12">
-    <label for="email" class="form-label">Correo electrónico</label>
-    <input
-      type="email"
-      class="form-control"
-      id="email"
-      placeholder="correo@mail.com"
-      required
-    >
-  </div>
-
-  <div class="col-12">
-    <div class="form-check">
-      <input
-        class="form-check-input"
-        type="checkbox"
-        id="recibir-promociones"
-      >
-
-      <label
-        class="form-check-label"
-        for="recibir-promociones"
-      >
-        Deseo recibir promociones y novedades por email.
-      </label>
-    </div>
-  </div>
-
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">
-      Suscribirme
-    </button>
-  </div>
-
+  <!-- form con bootstrap -->
+  <section class="suscripcion">
+    <form id="form-suscripcion" class="row p-4 g-4">
   
-</form>
+      <div class="col-md-6">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required >
+      </div>
+  
+      <div class="col-md-6">
+        <label for="apellido" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido" required >
+      </div>
+  
+      <div class="col-12">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="correo@mail.com" required >
+      </div>
+  
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="recibir-promociones" >
+    
+          <label class="form-check-label" for="recibir-promociones" >
+            Deseo recibir promociones y novedades por email.
+          </label>
+        </div>
+      </div>
+  
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">
+          Suscribirme
+        </button>
+      </div>
+  
+    
+    </form>
+  </section>
 
-<div>
-  <p id="mensaje-suscripcion"></p>
-</div>
-
+  <div>
+    <p id="mensaje-suscripcion"></p>
+  </div>
 
 </main>
 

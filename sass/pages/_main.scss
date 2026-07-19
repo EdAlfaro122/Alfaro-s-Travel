@@ -18,15 +18,10 @@ h2 {
     background-color: nth($lista-colores, 1 );
     color: nth($lista-colores, 2 );
     text-align: center;
-    margin: 2rem 0;
-}
 
-#buscador-hoteles{
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    font-size: 1rem;
+    p{
+        padding: .5rem;
+    }
 }
 
 
@@ -48,12 +43,12 @@ h2 {
 #filtro-precio {
     width: 100%;
     max-width: 500px;
-    padding: .9rem 1rem;
+    padding: 1rem 1rem;
     border: 1px solid #ddd;
     border-radius: 12px;
     background-color: white;
     font-size: 1rem;
-    color: #333;
+    color: nth($lista-colores, 2 );
     cursor: pointer;
     transition: .3s ease;
 
@@ -63,7 +58,6 @@ h2 {
         box-shadow: 0 0 8px rgba(13,110,253,.15);
     }
 }
-
 
 #buscador-hoteles::placeholder {
     color: nth($lista-colores, 2 );
