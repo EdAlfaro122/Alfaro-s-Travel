@@ -13,20 +13,20 @@
 header {
   background-color: nth($lista-colores, 2);
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 1rem;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-evenly;
+  gap: 1rem;
 
   img {
-    max-width: 120px;
+    max-width: 100px;
   }
 
   nav {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
   }
 
   .paginaHotel,
@@ -40,6 +40,7 @@ header {
     font-size: .85rem;
     color: nth($lista-colores, 1);
     border: 1px solid nth($lista-colores, 1);
+    text-align: center;
 
     &:hover {
         background-color: nth($lista-colores, 1);

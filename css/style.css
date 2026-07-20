@@ -1,4 +1,18 @@
 @charset "UTF-8";
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,19 +22,19 @@
 header {
   background-color: black;
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 1rem;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-evenly;
+  gap: 1rem;
 }
 header img {
-  max-width: 120px;
+  max-width: 100px;
 }
 header nav {
   display: flex;
-  gap: 1rem;
+  flex-direction: row;
   align-items: center;
+  gap: 0.5rem;
 }
 header .paginaHotel,
 header .paginaReservas {
@@ -33,6 +47,7 @@ header .paginaReservas {
   font-size: 0.85rem;
   color: whitesmoke;
   border: 1px solid whitesmoke;
+  text-align: center;
 }
 header .paginaHotel:hover,
 header .paginaReservas:hover {
@@ -76,7 +91,15 @@ h2 {
   padding: 0.5rem;
 }
 
+.titulo-suscripcion {
+  padding-top: 0.1rem;
+}
+
 /* BUSCADOR Y FILTRO */
+main {
+  background-color: whitesmoke;
+}
+
 .filtros-hoteles {
   display: flex;
   flex-direction: column;
@@ -143,6 +166,8 @@ h2 {
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 .hotel-card:hover {
   transform: translateY(-8px);
@@ -170,6 +195,9 @@ h2 {
   padding: 1.2rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .hotel-info h2 {
   margin-bottom: 1rem;
@@ -186,13 +214,14 @@ h2 {
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
+  align-self: flex-start;
 }
 
 .hotel-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: auto;
 }
 
 .hotel-price {
@@ -500,11 +529,18 @@ footer {
 }
 /*MQ de Desktop*/
 @media (min-width: 1024px) {
-  header img {
-    width: 150px;
+  header {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
   }
-  header h2 {
-    padding-right: 2rem;
+  header img {
+    width: 140px;
+  }
+  header nav {
+    flex-direction: row;
+    width: auto;
+    gap: 1rem;
   }
   main .carousel-item img {
     height: 650px;

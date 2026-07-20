@@ -3,12 +3,18 @@
 @media (min-width: 1024px) {
 
     header {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 1rem;
+
         img {
-            width: 150px;
+            width: 140px;
         }
 
-        h2 {
-            padding-right: 2rem;
+        nav {
+            flex-direction: row;
+            width: auto;
+            gap: 1rem;
         }
     }
 
